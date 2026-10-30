@@ -1,0 +1,38 @@
+SITE VITRINE — HORIZON GLOBAL SARL (Songon, Abidjan)
+=====================================================
+
+CONTENU DU DOSSIER
+------------------
+- index.html ................ Accueil (hero, chiffres, 9 pôles, valeurs)
+- poles.html ................ Les 9 pôles d'activité détaillés
+- construction.html ......... Focus construction (bâtiment, études, rénovation, génie civil)
+- immobilier-services.html .. Immobilier, matériaux, automobile, transport, finance
+- entreprise.html ........... Présentation + informations légales (RCCM…)
+- contact.html .............. Coordonnées + formulaire de devis WhatsApp
+- assets/css/style.css ...... Le design (noir / blanc cassé / orange chantier)
+- assets/js/main.js ......... Menu mobile + envoi du formulaire vers WhatsApp
+- assets/images/ ............ Logo officiel + visuels de l'entreprise (en local)
+- README.md ................. Présentation technique du site
+
+POUR METTRE LE SITE EN LIGNE (Cloudflare)
+-----------------------------------------
+1. Cloudflare → Workers & Pages → Create → Upload assets.
+2. Envoyer le dossier complet (ou le zip horizon-global-site-moderne.zip :
+   ses fichiers sont déjà à la racine).
+3. index.html doit être à la racine du déploiement.
+4. Le site obtient une adresse en *.workers.dev.
+
+COMMENT FONCTIONNE LE FORMULAIRE DE DEVIS
+-----------------------------------------
+Le visiteur remplit le formulaire (page Contact) ; en cliquant « Envoyer »,
+WhatsApp s'ouvre avec un message pré-rempli adressé au numéro WhatsApp
+de l'entreprise : (+225) 05 64 32 37 11. Aucune donnée n'est stockée.
+
+NUMÉROS AFFICHÉS SUR LE SITE
+----------------------------
+Principaux (fiche Construction) : 27 23 44 26 65 / 01 40 12 04 56 /
+WhatsApp 05 64 32 37 11 — Cité LGI, Kassemblé, Songon.
+Secondaires (fiche Immobilier de l'entreprise) : 27 23 45 81 01 /
+07 02 10 85 60 / 05 46 96 68 32 — cité N'zikan - cité Marina, Songon.
+
+Aperçu de démonstration — en attente de validation par l'entreprise.
